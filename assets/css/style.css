@@ -1,0 +1,258 @@
+body{
+    /* background-color: white !important; */
+
+} 
+   
+form{
+    padding: 4% 0;
+}
+
+hr{
+    border: 1px solid black!important;
+}
+
+table{
+    border-radius: 3% !important;
+}
+
+#mecanicos, #repuestos{
+    width: 100%;
+    height: 500px;
+    border: 1px solid black!important;
+
+}
+
+.cuadrado-menu{
+    width: 40px; 
+    height: 30px; 
+    border-radius:30%; 
+    padding-top:1%;
+    
+}
+
+.
+
+.contenido{
+    padding: 0 4%;
+}
+
+.contenido-vertical{
+    margin-top: 3% !important;
+}
+
+.separacion-grande-bottom{
+   padding-bottom: 4%; 
+}
+
+.separacion-xgrande-bottom{
+    padding-bottom: 10%; 
+ }
+
+.separacion-corta-bottom{
+    padding-bottom: 1% !important; 
+}
+
+.margen-inferior{
+    margin: 0 0 7% !important;
+}
+
+.espaciado{
+    margin-right: 3%;
+}
+
+.contenedor-horizontal{
+    margin: 0 5%;
+}
+
+.contenedor-horizontal-grande{
+    margin: 0 25%;
+}
+
+.contenedor-vertical{
+    margin: 5% 0;
+}
+
+.cont{
+    padding: 0 3%;
+}
+
+.card-principal{
+    padding: 4% 3% 4%;
+}
+
+.card-login{
+    background-color: #f7b57a !important;
+    padding: 4% 0 6%;
+    box-shadow: 5px 5px 25px 
+}
+
+.card-menu{
+    padding: 4% 0 4%;
+    margin-bottom: 5%;
+    
+}
+
+.centrar-boton{
+    padding-top: 3%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.color-card-principal{
+    background-color: rgba(247, 181, 122, 0.3) !important;
+    border: 1px solid #f7b57a;
+}
+
+
+.color-card-secunadario{
+    background-color: rgba(0, 0, 84, 0.3) !important;
+    border: 1px solid #00002e;
+}
+
+.color-card-terciario{
+    background-color: rgba(194, 28, 26, 0.3) !important;
+    border: 1px solid #00002e;
+}
+
+.color-cuadro-principal{
+    background-color:#f78e30 !important; 
+    border: 1px solid #f78e30 !important;
+}
+
+.color-cuadro-secundario{
+    background-color: #00002e;
+    border: 1px solid #00002e !important;
+}
+
+.color-cuadro-terciario{
+    background-color: #75100f;
+    border: 1px solid #75100f !important;
+}
+
+.color-principal{
+    background-color: #f7b57a !important;
+}
+
+.color-secundario{
+    background-color: #000054 !important;
+    color: white !important;
+}
+
+.color-terciario{
+    background-color: #c21c1a !important;
+    color: white !important;
+}
+
+.border-color-principal{
+    border-bottom: 6px groove #f7b57a !important;
+    border-left: 6px groove #f7b57a !important;
+    border-right: 6px groove #f7b57a !important;
+}
+
+/* .centrar{
+    display: flex;
+    justify-content: center;
+} */
+
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+}
+
+input[type=number] { 
+    -moz-appearance:textfield; 
+}
+
+@media (max-width:766px){
+    
+        
+   
+}
+
+
+@media (max-width:650px){
+    
+    #compra .contenedor-horizontal{
+        margin: 0 10%;
+    }
+
+    #compra{
+        background-image: none;
+        background-color: #3491ee !important;
+    }
+
+    #logo{
+        width: 45px;
+    }
+    .contenedor-horizontal-grande{
+        margin: 0 20%;
+    }
+}
+
+@media (max-width:576px){
+    label{
+        font-size: 10pt;
+    }
+
+    #img-login{
+        width: 125px;
+    } 
+
+    #logo{
+        width: 40px;
+    }
+
+    .contenedor-horizontal-grande{
+        margin: 0 18%;
+    }
+
+    #repuesto{
+        background-image: none;
+    }
+
+}
+
+@media (max-width:400px){
+    label{
+        font-size: 8pt;
+    }
+
+    #img-login{
+        width: 100px;
+    }
+
+    p{
+        font-size: 9px;
+    }
+
+    #btnlogin{
+        font-size: 9px;
+    }
+
+    #logo{
+        width: 35px;
+    }
+
+    .contenedor-horizontal-grande{
+        margin: 0 15%;
+    }
+}
+
+@media (max-width:300px){
+    label{
+        font-size: 6pt;
+    }
+
+    #img-login{
+        width: 80px;
+    }
+
+    #btnlogin{
+        font-size: 5px;
+    }
+
+    #logo{
+        width: 30px;
+    }
+}
